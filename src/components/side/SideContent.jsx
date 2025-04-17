@@ -1,6 +1,6 @@
 import React from "react"
 import { side, socialIcon } from "../../data/data"
-import sideImg from "../../images/WhatsApp Image 2023-11-30 at 13.07.58_8a06629f.jpg"
+import sideImg from "../../images/profilepic.jpg"
 import { RiMoneyDollarCircleLine } from "react-icons/ri"
 import { FiDownloadCloud } from "react-icons/fi"
 
@@ -28,11 +28,11 @@ const Progress = ({ done, title, back }) => {
 export const SideContent = () => {
 
   const handleHireMeClick = () => {
-    const email = 'mailto:sreeshankerthekkan@gmail.com';
+    const email = 'mailto:akshinthachu999@gmail.com';
     window.location.href = email;
   };
 
-  const url = "http://localhost:3000/sreeshankerNew.pdf"
+  const url = "http://localhost:3000/akshinthnew.pdf"
   const handleDownload=(url)=>{
    const fileName = url.split('/').pop();
    const aTage = document.createElement('a');
@@ -49,14 +49,15 @@ export const SideContent = () => {
           <div className='sideContent_top_img'>
             <img src={sideImg} alt='side' width='100%' />
             <div className='sideContent_top_img_name'>
-              <h3>Sreesankar t</h3>
+              <h3>Akshinth P</h3>
               <span>Web Developer</span>
             </div>
           </div>
           <div className='sideContent_top_social'>
             {socialIcon.map((icons) => (
               <div className={icons.class}>
-                <span>{icons.icon}</span>
+                {/* <span>{icons.icon}</span> */}
+                <a href={icons.link}>{icons.icon}</a>
               </div>
             ))}
           </div>

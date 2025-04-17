@@ -44,45 +44,51 @@ import { BiLaptop, BiLibrary } from "react-icons/bi"
 //   },
 // ]
 
+// www.linkedin.com/in/akshinth-p-12a17531b
+
 export const socialIcon = [
   {
     id: 1,
     icon: <FaFacebookF />,
     class: "facebook",
+    
   },
   {
     id: 2,
     icon: <FaLinkedin />,
     class: "twitter",
+    link:"https://www.linkedin.com/in/akshinth-p-12a17531b"
   },
   {
     id: 3,
     icon: <FaGithub />,
     class: "dribbble",
+    link:"https://github.com/AkshinthP"
   },
   {
     id: 4,
     icon: <FaInstagram/>,
     class: "instagram",
+    link:"https://www.instagram.com/the_akz__?igsh=NGJ5OG91bXM5aG94"
   },
 ]
 
 export const side = [
   {
     id: 1,
-    num: 85,
+    num:40,
     text: "Backend Development",
     class: "skill1",
   },
   {
     id: 2,
-    num: 92,
+    num: 95,
     text: "Frontend Development",
     class: "skill2",
   },
   {
     id: 3,
-    num: 71,
+    num: 85,
     text: "Web Design",
     class: "skill3",
   },
@@ -93,19 +99,19 @@ export const about = [
     deatils: [
       {
         text: "My Name",
-        value: "Sreesankar t",
+        value: "Akshinth P",
         icon: <RiUserLine />,
       },
-      { text: "Date_of_birth", value: "31-12-2000", icon: <AiOutlineCalculator /> },
-      { text: "Email Address", value: "sreeshankerthekkan@gmail.com", icon: <GoMail /> },
-      { text: "Phone Number", value: "7356840708", icon: <BsPhoneVibrate /> },
-      { text: "Address", value: "thekkan house puthiyatherumandapam ", icon: <MdShareLocation /> },
+      { text: "Date_of_birth", value: "24-11-2000", icon: <AiOutlineCalculator /> },
+      { text: "Email Address", value: "akshinthachu999@gmail.com", icon: <GoMail /> },
+      { text: "Phone Number", value: "9447713698", icon: <BsPhoneVibrate /> },
+      { text: "Address", value: "Leena Nivas, Malot, Kannadiparamba ", icon: <MdShareLocation /> },
     ],
     bio: [
       {
-        para1: "I am a self-taught MERN stack developer currently learning the MERN stack from Brototype, a self-learning platform.I have completed two main projects and more than one mini project. I am a quick learner; I learned the MERN stack in just six months. ",
-        para2: "One of my projects is an e-commerce website for buying laptops. Another one is a hotel booking web application where users can easily find and book hotels, ensuring a comfortable stay. I also have more than one mini project.",
-        para3: " I am daily thrilling to explore new technologies and apply my newly acquired skills to real-world projects. I enhance my problem-solving skills daily with LeetCode..",
+        para1: "I’m a self-taught frontend developer passionate about crafting clean, responsive, and user-friendly web interfaces. Over the past few months, I’ve completed two major projects and several mini projects, focusing on building real-world applications that enhance the user experience.",
+        para2: "My main projects include a Kerala Tourism website built with React.js, showcasing tourist destinations with a clean and interactive UI, and a Food Recipe App that lets users filter dishes by category. I’ve also worked on several mini projects to further improve my frontend development skills.",
+        para3: "I specialize in technologies like React.js, HTML, CSS, and JavaScript, and I’m currently dedicating my time to improving my frontend skills through hands-on projects. I'm a quick learner, always exploring new tools and techniques to stay up-to-date with modern web development trends. Creating beautiful and functional websites is what I love to do.",
         images: "./images/bio.png",
       },
     ],
@@ -117,7 +123,7 @@ export const about = [
         title: "Programming",
         
         text: "fundamental stack ",
-        decs: "JavaScript, DSA, HTML, CSS+Sass, SQL",
+        decs: "JavaScript, HTML, CSS+Sass",
       
       },
       {
@@ -125,7 +131,7 @@ export const about = [
         icon: <TbTool />,
         title: "Tools",
         text: "collection of tools and technologies ",
-        decs: "Git, Postman, AWS, Figma,Insomnia",
+        decs: "Git, Postman, Figma",
        
       },
       {
@@ -133,7 +139,7 @@ export const about = [
         icon: <FiLayers />,
         title: "Frameworks ",
         text: "technology stack for web applications",
-        decs: " Node.js, Express.js, REST API, NGINX",
+        decs: " Node.js, Express.js, REST API",
         
       },
       {
@@ -141,14 +147,14 @@ export const about = [
         icon: <BiLibrary />,
         title: "Libraries",
         text: "modern technology stack",
-        decs: "React, JWT, Redux, ContextAPI, Material-UI, Axios, Bootstrap,React Router,Nodemailer",
+        decs: "React, Redux, ContextAPI, Material-UI, Axios, Bootstrap,React Router",
       },
       {
         id: 5,
         icon: <CgDatabase />,
         title: "Database",
         text: "Data collection",
-        decs: "MongoDB, PostgreSQL",
+        decs: "MongoDB ",
         
       },
       {
@@ -173,26 +179,23 @@ export const about = [
     review: [
       {
         id: 1,
-        desc: ` It's an online platform for purchasing a variety of laptops . The backend was built on   Express.js, Node.js, with MongoDB following the MVC architecture.
-        Handlebars (hbs) is used in front-end development for dynamically generating HTML on the server side.
-        Payment platforms like Razorpay have been seamlessly integrated.   
-        Nodemailer is utilized for OTP-based authentication.
-        The platform is hosted on Amazon Web Services (AWS) with NGINX`,
-        name: "CartWise",
-        link: "Online platform",
-        cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OpsCLto4sXJMMRg3o_x4Gfe3lwYQ5lwx1A&usqp=CAU",
-        sourceCode:"https://github.com/Sreesankar-t/CartWase-ecommerce.git",
+        desc: ` A React-based web application for exploring and filtering food recipes by category. 
+        Built with a clean and structured layout, the app uses dynamic rendering with React components to display various dishes based on user-selected filters. 
+        The focus was on layout consistency and smooth functionality to enhance the browsing experience.`,
+        name: "Food Recipe App",
+        link: "Online food selecting application",
+        // cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OpsCLto4sXJMMRg3o_x4Gfe3lwYQ5lwx1A&usqp=CAU",
+        sourceCode:"https://github.com/AkshinthP/Food-Recipes.git",
       },
       {
         id: 2,
-        desc: `This platform is designed to streamline the process of finding and booking accommodations, saving you time and ensuring a comfortable stay.
-        By utilizing the MVC architecture, this was  developed with React.js with ContextAPI for the frontend and Node.js for the backend. 
-        Mongoose is employed for defining the schema. 
-        Payment platforms like Stripe  have been seamlessly integrated.`,
-        name: "WONDERINN",
-        link: "Hotel booking web application",
-        cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3g5SfVO9v7LbzxWA_ym6crhwLQrGFqKZpKNnJrEAwqvFSIL_Dvo8R2b-2568Ss_rz19Y&usqp=CAU",
-        sourceCode:"https://github.com/Sreesankar-t/BOOKING_app-MERN.git",
+        desc: `A React-based web application showcasing the beauty and culture of Kerala.
+         Designed with a focus on user experience and responsiveness, the platform features dynamic routing with React Router and a clean, modern UI. 
+         Visitors can explore various tourist destinations, view images, and get brief descriptions of each location. Styled using CSS and React components to ensure a smooth and interactive experience.`,
+        name: "Kerala Tourism",
+        link: "Tourism website",
+        // cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3g5SfVO9v7LbzxWA_ym6crhwLQrGFqKZpKNnJrEAwqvFSIL_Dvo8R2b-2568Ss_rz19Y&usqp=CAU",
+        sourceCode:"https://github.com/AkshinthP/Tourismkerala.git",
       },
       // {
       //   id: 3,

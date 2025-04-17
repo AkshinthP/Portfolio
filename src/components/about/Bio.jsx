@@ -18,16 +18,16 @@ export const Bio = ({ items, Heading }) => {
                 <p>{val.para3}</p>
               </div>
               <div className='about_details_bio_box_item'>
-              <p>CartWise Online platform - source code:</p>
-              <a href="https://github.com/Sreesankar-t/CartWase-ecommerce.git" target="_blank" rel="noopener noreferrer">
-              <p style={{color:"lightblue"}}>https://github.com/Sreesankar-t/CartWase-ecommerce.git</p>
+              <p>Food Recipe app - source code:</p>
+              <a href="https://github.com/AkshinthP/Food-Recipes.git" target="_blank" rel="noopener noreferrer">
+              <p style={{color:"lightblue"}}>https://github.com/AkshinthP/Food-Recipes.git</p>
               </a>
 
               
-              <p>WONDERINN hotelbooking application - source code:</p>
-              <a href="https://github.com/Sreesankar-t/BOOKING_app-MERN.git" target="_blank" rel="noopener noreferrer">
+              <p>Kerala Tourism website - source code:</p>
+              <a href="https://github.com/AkshinthP/Tourismkerala.git" target="_blank" rel="noopener noreferrer">
               
-               <p style={{color:"lightblue"}}>https://github.com/Sreesankar-t/BOOKING_app-MERN.git</p>
+               <p style={{color:"lightblue"}}>https://github.com/AkshinthP/Tourismkerala.git</p>
               </a>
            
               </div>

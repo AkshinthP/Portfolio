@@ -36,6 +36,7 @@ button {
 }
 main {
   width: $w-2xl;
+  // background-color: #ffffff;
 }
 
 $colors: (
@@ -113,3 +114,41 @@ $backgrouds: (
   font-size: 50px;
   color: $primary;
 }
+
+
+// mobile
+@media screen and (max-width: 480px) {
+  .container {
+    @include shadow;
+    background: $black;
+    width: 100%;
+    // margin: 30px;
+  }
+  .main-div {
+    width: 900px;
+    // margin: 10px;
+    @include flex(space-between, none, none);
+    // padding: 30px;
+    // background-color: white;
+  }
+  .side {
+    width: 100%;
+    background-color: $lightblue;
+    @include shadow;
+    height: 105vh;
+    // margin: 30px;
+  }
+  main {
+    width: 100%;
+  }
+  button {
+    @include defaultValue;
+    margin-left: 900px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+  }
+
+  
+}
+
+
